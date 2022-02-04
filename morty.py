@@ -1,7 +1,7 @@
 '''import logging
 from aiogram import Bot, Dispatcher, executor, types
 
-TOKEN = '1705861754:AAFrneQXDvFv0M_whCJWzJweOUrB2y7aRHA'
+TOKEN = ''
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
@@ -20,7 +20,7 @@ if __name__ == '__main__':
 import telebot
 import random as rnd
 
-bot = telebot.TeleBot('1936596416:AAGclJlD_RGHT7Fv6kuaj_pIvj9Cyh8cnBk')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
