@@ -42,7 +42,7 @@ def gay(message):
 def getCHAT_id(message):
     print(message.chat.id)
 
-'''
+
 @bot.message_handler(func=lambda message: True)
 def send_text(message):
     if message.text.lower() == "морти" or "бот" or "конч" or "мой сладкий" or "мой сладенький":
@@ -53,7 +53,7 @@ def send_text(message):
 
     else:
         bot.reply_to(message.chat.id, "Я не выкупаю, что это!👆 Я пока слишком тупой. Идите нахуй")
-        bot.send_message(message.chat.id, )'''
+        bot.send_message(message.chat.id, )
 
 bot.polling(none_stop=True)
 '''
