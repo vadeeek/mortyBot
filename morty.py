@@ -52,7 +52,7 @@ def send_text(message):
             bot.stop_polling()
 
     else:
-        bot.reply_to(message.chat.id, "Я не выкупаю, что это!👆 Я пока слишком тупой. Идите нахуй☺️")
+        bot.reply_to(message.chat.id, "Я не выкупаю, что это!👆 Я пока слишком тупой. Идите нахуй")
         bot.send_message(message.chat.id, )'''
 
 bot.polling(none_stop=True)
